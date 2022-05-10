@@ -1,0 +1,4 @@
+A framework for playing Gin Rummy. Gin.py implements a class which defines and runs a gave of gin between two entities which comply to the agent interface.
+A HumanAgent has been implemented which allows the user to play the game through text prompts. Additionally, an AIAgent has been defined which uses montecarlo
+simulation to evaluate which cards are best to draw/discard. The AI agent is pretty good right now and tracks which cards are in the opponents hand and which
+are discarded when making decisions. To be stronger, larger scale match strategy needs to be added to the AI (eg. trying to drop points as the hand progresses, etc.). Currently the gin class only plays through a single hand rather than a full match.
